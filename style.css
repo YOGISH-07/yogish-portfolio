@@ -366,3 +366,76 @@ body.light-mode #theme-btn {
         font-size: 20px;
     }
 }
+
+/* Projects */
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+}
+
+.project-card h3 {
+    color: #38bdf8;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #38bdf8;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: white;
+}
+
+
+/* Education */
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.education-card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+}
+
+.education-card h3 {
+    color: #38bdf8;
+}
+
+
+/* Resume */
+
+.resume-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.resume-container h3 {
+    color: #38bdf8;
+}
+
+.resume-container .button {
+    display: inline-block;
+    margin-top: 15px;
+}
